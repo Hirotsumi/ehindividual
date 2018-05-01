@@ -19,7 +19,8 @@
             android:layout_height="wrap_content"
             android:text="É individual?"
             android:textSize="50sp"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:fontFamily="casual"/>
 
         <EditText
             android:id="@+id/editText"
@@ -33,6 +34,7 @@
             android:layout_height="wrap_content"
             android:text="Continuar"
             android:layout_gravity="center"
+            style="@style/botoes_transparentes"
             />
 
     </LinearLayout>

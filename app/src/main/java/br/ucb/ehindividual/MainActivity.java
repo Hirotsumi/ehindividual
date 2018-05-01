@@ -10,6 +10,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.Objects;
+
 public class MainActivity extends Activity implements View.OnClickListener {
 
     private ImageView imgGitHub;
@@ -24,6 +26,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Objects.requireNonNull(getActionBar()).hide();
         inicializarVariaveis();
         btnContinuar.setOnClickListener(this);
         imgGitHub.setOnClickListener(this);
