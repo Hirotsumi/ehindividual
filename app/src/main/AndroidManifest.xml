@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PerguntaActivity"></activity>
+        <activity android:name=".PerguntaActivity" />
+        <activity android:name=".ResultadoActivity" />
+        <activity android:name=".RevisarActivity"></activity>
     </application>
 
 </manifest>

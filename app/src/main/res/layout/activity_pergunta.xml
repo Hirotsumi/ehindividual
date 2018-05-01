@@ -20,7 +20,32 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:fontFamily="serif-monospace"/>
+        <TextView
+            android:id="@+id/tvAlternativaA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:padding="5dp"/>
+        <TextView
+            android:id="@+id/tvAlternativaB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:padding="5dp"/>
+        <TextView
+            android:id="@+id/tvAlternativaC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:padding="5dp"/>
+        <TextView
+            android:id="@+id/tvAlternativaD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:padding="5dp"/>
         <Button
+            android:id="@+id/btnProxima"
             android:text="Próxima"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -31,6 +56,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <LinearLayout
+                android:id="@+id/alternativasJogador1"
                 android:orientation="vertical"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -49,21 +75,25 @@
                     android:layout_height="match_parent"
                     android:gravity="center_horizontal">
                     <RadioButton
+                        android:id="@+id/alternativaAJogador1"
                         android:text="a)"
                         android:fontFamily="sans-serif-condensed"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                     <RadioButton
+                        android:id="@+id/alternativaBJogador1"
                         android:text="b)"
                         android:fontFamily="sans-serif-condensed"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                     <RadioButton
+                        android:id="@+id/alternativaCJogador1"
                         android:text="c)"
                         android:fontFamily="sans-serif-condensed"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                     <RadioButton
+                        android:id="@+id/alternativaDJogador1"
                         android:text="d)"
                         android:fontFamily="sans-serif-condensed"
                         android:layout_width="wrap_content"
@@ -71,6 +101,7 @@
                 </RadioGroup>
             </LinearLayout>
             <LinearLayout
+                android:id="@+id/alternativasJogador2"
                 android:orientation="vertical"
                 android:layout_width="0dp"
                 android:layout_weight="1"
@@ -89,21 +120,25 @@
                     android:layout_height="match_parent"
                     android:gravity="center_horizontal">
                     <RadioButton
+                        android:id="@+id/alternativaAJogador2"
                         android:text="a)"
                         android:fontFamily="sans-serif-condensed"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                     <RadioButton
+                        android:id="@+id/alternativaBJogador2"
                         android:text="b)"
                         android:fontFamily="sans-serif-condensed"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                     <RadioButton
+                        android:id="@+id/alternativaCJogador2"
                         android:text="c)"
                         android:fontFamily="sans-serif-condensed"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                     <RadioButton
+                        android:id="@+id/alternativaDJogador2"
                         android:text="d)"
                         android:fontFamily="sans-serif-condensed"
                         android:layout_width="wrap_content"
