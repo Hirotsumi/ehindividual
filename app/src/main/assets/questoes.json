@@ -1,0 +1,101 @@
+[{
+		"pergunta": "Uma das maiores vantagens do MPS.BR é:",
+		"alternativas": [
+			"a) O emprego do idioma nativo",
+			"b) a redução do custo de certificação",
+			"c) a adaptação aos padrões culturais brasileiros",
+			"d) a flexibilidade em relação aos padrões internacionais"
+		],
+		"alternativaCorreta": 1
+	},
+	{
+		"pergunta": "O modelo de qualidade de software MPS.BR:",
+		"alternativas": [
+			"a) não é compatível com a Norma NBR ISO/IEC 12207:2009.",
+			"b) adota a ITIL v3 como padrão de gerenciamento da qualidade de serviços de TI.",
+			"c) não atende às necessidades das empresas brasileiras, que preferem a adoção do CMMI.",
+			"d) não conflita com as metodologias ágeis de software, podendo ser utilizado junto com o Scrum."
+		],
+		"alternativaCorreta": 3
+	},
+	{
+		"pergunta": "NÃO se trata de um nível de maturidade adotado no MPS.Br, o",
+		"alternativas": [
+			"a) Definido.",
+			"b) Executado.",
+			"c) Em Otimização.",
+			"d) Gerenciado."
+		],
+		"alternativaCorreta": 1
+	},
+	{
+		"pergunta": "De acordo com o Modelo de Referência MPS para Software (MR-MPS-SW), alguns processos podem ser excluídos do escopo de uma avaliação MPS, total ou parcialmente, por não serem pertinentes ao negócio da unidade organizacional que está sendo avaliada. Cada exclusão deve ser justificada no Plano de Avaliação. A aceitação das exclusões e suas justificativas é responsabilidade do Avaliador Líder. É permitida a exclusão completa do seguinte processo do nível de maturidade F, desde que não executado pela organização:",
+		"alternativas": [
+			"a) Desenvolvimento para Reuso − DRE.",
+			"b) Integração do Produto − ITP.",
+			"c) Aquisição − AQU.",
+			"d) Medição de Riscos − MRI."
+		],
+		"alternativaCorreta": 2
+	},
+	{
+		"pergunta": "O MPS.BR é um modelo de avaliação de empresas produtoras de software brasileiro, criado mediante parceria entre SOFTEX, governo federal e academia. Uma das características do modelo MPS.BR reside no fato de ele",
+		"alternativas": [
+			"a) prever que alguns processos possam ser excluídos da avaliação da organização avaliada.",
+			"b) exigir da organização um esforço maior para subir um nível de maturidade em comparação ao CMMI.",
+			"c) permitir às organizações realizarem avaliações com menos níveis de maturidade, se comparado ao CMMI.",
+			"d) ser independente, porém incompatível com as normas ISO/IEC 12207 e ISO/IEC 15504."
+		],
+		"alternativaCorreta": 0
+	},
+	{
+		"pergunta": "O MPS.BR possui níveis de maturidade identificados por letras de A a G. Identifique cada nível apresentado abaixo com a letra correspondente.\n(  ) Gerenciado\n(  ) Largamente definido\n(  ) Parcialmente definido\n(  ) Parcialmente gerenciado\n(  ) Em otimização\n(  ) Definido\n(  ) Gerenciado quantitativamente\n\nAssinale a sequência correta.",
+		"alternativas": [
+			"a) B, D, C, A, G, E, F",
+			"b) E, C, A, D, G, B, F",
+			"c) F, D, E, G, A, C, B  ",
+			"d) C, E, G, D, A, F, B  "
+		],
+		"alternativaCorreta": 2
+	},
+	{
+		"pergunta": "O nível G de maturidade do MR-MPS-SV é composto pelos processos Entrega de Serviços, Gerência de Incidentes, Gerência de Nível de Serviço, Gerência de Requisitos e Gerência de Trabalhos. Neste nível, a implementação dos processos deve satisfazer os atributos de processo:",
+		"alternativas": [
+			"a) AP 1.1 (o processo é executado) e AP 2.1 (o processo é gerenciado).",
+			"b) AP 1.1 (o processo é medido) e AP 2.1 (o processo é definido).",
+			"c) AP 1.1 (o processo está implementado) e AP 2.1 (o processo é otimizado continuamente).",
+			"d) AP 1.1 (o processo é objeto de melhorias incrementais e inovações) e AP 2.1 (o processo é otimizado continuamente)."
+		],
+		"alternativaCorreta": 0
+	},
+	{
+		"pergunta": "O MPS.BR, em seu nível E (Parcialmente Definido) define 4 processos. Fazem parte desse processo:",
+		"alternativas": [
+			"a) Aquisição (AQU) e Entregas de Serviço (ETS). ",
+			"b) Gerência de Capacidade (GCA) e Gerência de Requisitos (GRE).",
+			"c) Gerência de Problemas (GPL) e Gerência de Decisões (GDE).",
+			"d) Gerência de Mudanças (GMU) e Gerência de Recursos Humanos (GRH)."
+		],
+		"alternativaCorreta": 3
+	},
+	{
+		"pergunta": "O programa MPS-BR é uma iniciativa brasileira para melhoria contínua do processo de software. Em seu guia de implementação, a primeira parte se refere aos níveis de maturidade. A respeito desse assunto, assinale a alternativa que apresenta alguns dos níveis de maturidade do MPS.BR.",
+		"alternativas": [
+			"a) parcialmente definido, gerenciado, totalmente gerenciado e parcialmente gerenciado.",
+			"b) em otimização, gerenciado quantitativamente, definido e largamente definido.",
+			"c) em otimização, otimizado, gerenciado quantitativamente e definido.",
+			"d) em otimização, otimizado, parcialmente otimizado e definido."
+		],
+		"alternativaCorreta": 1
+	},
+	{
+		"pergunta": "De acordo com o Guia Geral MPS de software, no MR-MPS-SW os níveis de maturidade são avaliados a partir de:",
+		"alternativas": [
+			"a) auditorias independentes credenciadas por órgãos reguladores do Governo brasileiro.",
+			"b) indicadores chave de desempenho, homologados por órgãos reguladores internacionais.",
+			"c) atributos de prioridade organizados de acordo com a relevância de cada processo.",
+			"d) atributos de processo que são detalhados por um conjunto de resultados esperados."
+		],
+		"alternativaCorreta": 3
+	}
+]

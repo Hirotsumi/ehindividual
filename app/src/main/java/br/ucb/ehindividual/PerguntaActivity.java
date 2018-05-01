@@ -45,13 +45,13 @@ public class PerguntaActivity extends Activity implements View.OnClickListener, 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pergunta);
         Objects.requireNonNull(getActionBar()).hide();
+        questoes = recuperarQuestoes();
         inicializarVariaveis();
         btnProxima.setOnClickListener(this);
         nomeJogador1 = getIntent().getStringExtra("nomeJogador1");
         nomeJogador2 = getIntent().getStringExtra("nomeJogador2");
         tvNomeJogador1.setText(nomeJogador1);
         tvNomeJogador2.setText(nomeJogador2);
-        questoes = recuperarQuestoes();
         carregarQuestao();
     }
 
@@ -67,8 +67,8 @@ public class PerguntaActivity extends Activity implements View.OnClickListener, 
         tvPergunta = findViewById(R.id.tvPergunta);
         btnProxima = findViewById(R.id.btnProxima);
         tvQuestao = findViewById(R.id.tvQuestao);
-        pontosJogador1 = new int[10];
-        pontosJogador2 = new int[10];
+        pontosJogador1 = new int[questoes.length];
+        pontosJogador2 = new int[questoes.length];
         i = 0;
     }
 
@@ -187,8 +187,8 @@ public class PerguntaActivity extends Activity implements View.OnClickListener, 
         if (this.i <= questoes.length) {
             if (this.i == questoes.length) {
                 Intent intent = new Intent(this, RevisarActivity.class);
-                intent.putExtra("pontosJogador1",pontosJogador1);
-                intent.putExtra("pontosJogador2",pontosJogador2);
+                intent.putExtra("pontosJogador1", pontosJogador1);
+                intent.putExtra("pontosJogador2", pontosJogador2);
                 intent.putExtra("nomeJogador1", nomeJogador1);
                 intent.putExtra("nomeJogador2", nomeJogador2);
                 startActivity(intent);
