@@ -36,4 +36,12 @@
             />
 
     </LinearLayout>
+    <ImageView
+        android:id="@+id/imgGitHub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/github_logo"
+        android:layout_margin="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
 </RelativeLayout>
