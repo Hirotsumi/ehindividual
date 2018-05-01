@@ -40,6 +40,14 @@
 
     </LinearLayout>
     <ImageView
+        android:id="@+id/imgHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_help"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="15dp"/>
+    <ImageView
         android:id="@+id/imgGitHub"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

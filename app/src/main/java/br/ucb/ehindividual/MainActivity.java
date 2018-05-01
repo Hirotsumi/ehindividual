@@ -1,6 +1,7 @@
 package br.ucb.ehindividual;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -16,6 +17,7 @@ import java.util.Objects;
 public class MainActivity extends Activity implements View.OnClickListener {
 
     private ImageView imgGitHub;
+    private ImageView imgHelp;
     private EditText editText;
     private Button btnContinuar;
     private TextView tvTitulo;
@@ -31,6 +33,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         inicializarVariaveis();
         btnContinuar.setOnClickListener(this);
         imgGitHub.setOnClickListener(this);
+        imgHelp.setOnClickListener(this);
     }
 
     private void inicializarVariaveis() {
@@ -38,6 +41,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         btnContinuar = findViewById(R.id.btnContinuar);
         tvTitulo = findViewById(R.id.tvTitulo);
         imgGitHub = findViewById(R.id.imgGitHub);
+        imgHelp = findViewById(R.id.imgHelp);
         cont = 0;
     }
 
@@ -45,6 +49,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
     public void onClick(View view) {
         if (view.getId() == R.id.imgGitHub) {
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Hirotsumi/ehindividual")));
+        }else if (view.getId() == R.id.imgHelp) {
+            AlertDialog.Builder alert = new AlertDialog.Builder(this);
+            alert.setTitle("Sobre o app");
+            alert.setMessage("Este é um app de questões a respeito do MPS.BR. Vocês responderão individualmente 10 questões (valendo 10 pontos cada), em seguida será "
+            + "possível revisá-las valendo a metade dos pontos. A ideia é que quem acertou a questão explique a quem errou para que a pontuação da dupla aumente! " +
+             "Divirtam-se!");
+            alert.setNeutralButton("OK", null);
+            alert.show();
         }else{
             if (validarNome()) {
                 cont++;

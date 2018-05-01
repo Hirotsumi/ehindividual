@@ -12,6 +12,7 @@ public class ResultadoActivity extends Activity {
     TextView tvNome2;
     TextView tvPontuacao1;
     TextView tvPontuacao2;
+    TextView tvPontuacaoTotal;
     String nomeJogador1;
     String nomeJogador2;
     int[] pontosJogador1;
@@ -39,6 +40,7 @@ public class ResultadoActivity extends Activity {
         }
         tvPontuacao1.setText(String.valueOf(pontuacao1) + " pontos");
         tvPontuacao2.setText(String.valueOf(pontuacao2) + " pontos");
+        tvPontuacaoTotal.setText(String.valueOf(pontuacao1 + pontuacao2) + " pontos");
     }
 
     private void inicializarVariaveis() {
@@ -46,5 +48,6 @@ public class ResultadoActivity extends Activity {
         tvNome2 = findViewById(R.id.tvNome2);
         tvPontuacao1 = findViewById(R.id.tvPontuacao1);
         tvPontuacao2 = findViewById(R.id.tvPontuacao2);
+        tvPontuacaoTotal = findViewById(R.id.tvPontuacaoTotal);
     }
 }
