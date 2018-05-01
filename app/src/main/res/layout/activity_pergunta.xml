@@ -25,25 +25,25 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="serif-monospace"
-            android:padding="5dp"/>
+            android:padding="15dp"/>
         <TextView
             android:id="@+id/tvAlternativaB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="serif-monospace"
-            android:padding="5dp"/>
+            android:padding="15dp"/>
         <TextView
             android:id="@+id/tvAlternativaC"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="serif-monospace"
-            android:padding="5dp"/>
+            android:padding="15dp"/>
         <TextView
             android:id="@+id/tvAlternativaD"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="serif-monospace"
-            android:padding="5dp"/>
+            android:padding="15dp"/>
         <Button
             android:id="@+id/btnProxima"
             android:text="Próxima"

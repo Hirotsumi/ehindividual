@@ -173,9 +173,9 @@ public class RevisarActivity extends Activity implements View.OnClickListener, D
             alert.setMessage(nomeJogador1 + " acertou a questão!");
         }else if (!jaTinhaAcertado1 && !jaTinhaAcertado2 && !jogador1Acertou && !jogador2Acertou) {
             alert.setMessage("Ambos erraram a questão novamente!");
-        }else if (!jogador1Acertou) {
+        }else if (!jogador1Acertou && !jaTinhaAcertado1) {
             alert.setMessage(nomeJogador1 + " errou a questão!");
-        }else if (!jogador2Acertou) {
+        }else if (!jogador2Acertou && !jaTinhaAcertado2) {
             alert.setMessage(nomeJogador2 + " errou a questão!");
         }
         alert.setNeutralButton("OK", this);
