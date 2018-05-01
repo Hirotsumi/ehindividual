@@ -39,6 +39,7 @@
                 <TextView
                     android:id="@+id/tvNomeJogador1"
                     android:text="Nome jogador 1"
+                    android:textSize="18sp"
                     android:fontFamily="sans-serif-condensed"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -49,18 +50,22 @@
                     android:gravity="center_horizontal">
                     <RadioButton
                         android:text="a)"
+                        android:fontFamily="sans-serif-condensed"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                     <RadioButton
                         android:text="b)"
+                        android:fontFamily="sans-serif-condensed"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                     <RadioButton
                         android:text="c)"
+                        android:fontFamily="sans-serif-condensed"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                     <RadioButton
                         android:text="d)"
+                        android:fontFamily="sans-serif-condensed"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                 </RadioGroup>
@@ -74,6 +79,7 @@
                 <TextView
                     android:id="@+id/tvNomeJogador2"
                     android:text="Nome jogador 2"
+                    android:textSize="18sp"
                     android:fontFamily="sans-serif-condensed"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -84,18 +90,22 @@
                     android:gravity="center_horizontal">
                     <RadioButton
                         android:text="a)"
+                        android:fontFamily="sans-serif-condensed"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                     <RadioButton
                         android:text="b)"
+                        android:fontFamily="sans-serif-condensed"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                     <RadioButton
                         android:text="c)"
+                        android:fontFamily="sans-serif-condensed"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                     <RadioButton
                         android:text="d)"
+                        android:fontFamily="sans-serif-condensed"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                 </RadioGroup>
